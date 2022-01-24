@@ -1,0 +1,104 @@
+/* Styles */
+
+/* Header Styles */
+header {
+  background-color: darkred;
+  color: white;
+  border-style: solid;
+  border-width: 5px;
+}
+
+header h1 {
+  text-align: center;
+  font-family: Bodoni;
+  font-weight: 900;
+}
+
+header h2 {
+  text-align: center;
+  font-family: Futura;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+/* Navigation Area */
+nav {
+  margin: 5px;
+  height: 10px;
+  padding: 10px;
+}
+
+body {
+  background-color: rgb(252, 238, 220);
+  text-align: center;
+}
+
+/* Avatar & Images */
+main div img {
+  padding: 25px;
+}
+
+.proportion {
+  max-width: 20%;
+}
+
+/* Footer Area */
+footer {
+  color: darkred;
+  padding: 15px;
+}
+
+/* Main Content */
+main div p {
+  text-align: left;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.box-me {
+  padding: 0px 0px 40px 0px;
+}
+
+h1 {
+  color: darkred;
+  text-decoration: underline;
+}
+
+/* Section Headings */
+section h4 {
+  color: darkred;
+}
+
+/* Centers List on Page */
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Centers List on Page */
+ol {
+  display: table;
+  margin: 10px auto;
+  text-align: left;  
+}
+
+/* Links */
+a:link {
+  color: black;
+}
+
+/* Visited Link */
+a:visited {
+  color: black;
+}
+
+/* Hover Link */
+a:hover {
+  color: red;
+}
+
+/* Click Link */
+a:active {
+  color: yellow;
+} 
