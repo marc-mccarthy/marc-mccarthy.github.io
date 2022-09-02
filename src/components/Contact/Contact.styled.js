@@ -90,6 +90,7 @@ export const TellMeButton = styled.button`
   cursor: pointer;
   color: #ffffff;
   background-color: #0fae14;
+  font-weight: bold;
   &:active {
     transform: scale(0.96);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
