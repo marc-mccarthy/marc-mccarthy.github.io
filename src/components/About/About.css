@@ -1,0 +1,23 @@
+.About {
+  text-align: center;
+}
+
+.About-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .About-logo {
+    animation: About-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes About-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
