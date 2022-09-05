@@ -32,7 +32,7 @@ export const TechList = styled.ul`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -40,25 +40,36 @@ export const TechList = styled.ul`
 
 export const TechItem = styled.li`
   font-family: 'Sansita';
+  margin: 0.25rem;
+`
+
+export const ToDoList = styled.ul`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+`
+
+export const ToDoItem = styled.li`
+  margin: 0.7rem;
+  font-family: Sansita, monospace;
+  font-size: 18px;
+`
+
+export const BadgeLink = styled.img`
+  border-radius: 8px;
+  box-shadow: 0 6px #969696;
+  cursor: pointer;
+  height: 25px;
+  border: 0.5px solid #000000;
+  &:active {
+    transform: scale(0.96);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.25);
 `
 
 export const Anchor = styled.a`
-  &:link, &:visited {
-      color: black;
-      padding: 5px 5px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      width: 15rem;
-      border-radius: 0.5rem;
-  }
-  &:hover, &:active {
-      background-color: blue;
-      color: white;
-  }
+  text-decoration: none;
 `
-
-export const ToDoItem = styled.div`
-  margin: 0.7rem;
-`
-

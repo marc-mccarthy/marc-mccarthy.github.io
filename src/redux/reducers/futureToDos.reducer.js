@@ -1,6 +1,6 @@
-const interestsReducer = (state = [], action) => {
+const futureToDosReducer = (state = [], action) => {
   switch (action.type) {
-    case 'GET_INTERESTS':
+    case 'GET_FUTURETODOS':
       return action.payload;
     case 'RESET_FORM':
       return state = {};
@@ -9,4 +9,4 @@ const interestsReducer = (state = [], action) => {
   }
 };
 
-export default interestsReducer;
+export default futureToDosReducer;

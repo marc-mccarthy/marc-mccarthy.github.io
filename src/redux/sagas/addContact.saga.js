@@ -11,8 +11,7 @@ function* addContact(action) {
     // checks the payload
     console.log(action.payload);
     // send new contact to the server
-    const addContact = yield axios.post('/contact', action.payload)
-    console.log(addContact.data)
+    yield axios.post('/contact', action.payload)
   } catch (error) {
     console.log('Error with contactSaga:', error);
   }

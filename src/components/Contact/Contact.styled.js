@@ -28,22 +28,16 @@ export const ContactLink = styled.div`
   margin: 0.4rem;
 `
 
-export const BadgeLink = styled.a`
-  text-decoration: none;
-  cursor: pointer;
+export const BadgeLink = styled.img`
   border-radius: 8px;
-  box-shadow: 0 6px #999;
-  display: inline-block;
+  box-shadow: 0 6px #969696;
   cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #000000;
   &:active {
     transform: scale(0.96);
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-`
-
-export const Badge = styled.img`
-  border-radius: 8px;
-  width: 6rem;
-  height: 2rem;
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.25);
 `
 
 export const FormBox = styled.form`
@@ -85,15 +79,14 @@ export const TellMeButton = styled.button`
   height: 2rem;
   cursor: pointer;
   border-radius: 8px;
-  box-shadow: 0 6px #999;
-  display: inline-block;
-  cursor: pointer;
+  box-shadow: 0 6px #969696;
   color: #ffffff;
   background-color: #0fae14;
+  border: 1px solid #000000;
   font-weight: bold;
   &:active {
     transform: scale(0.96);
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.25);
 `
 
 export const Label = styled.label`
@@ -120,4 +113,9 @@ export const InputMessage = styled.textarea`
   @media (min-width: 870px) {
     width: 600px;
   }
+`
+
+export const Anchor = styled.a`
+  text-decoration: none;
+  margin: 0.25rem;
 `

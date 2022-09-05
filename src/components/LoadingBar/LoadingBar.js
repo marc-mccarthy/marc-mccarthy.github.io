@@ -1,12 +1,13 @@
-import { Page } from './LoadingBar.styles';
+import React from 'react'
+import { Loading } from './LoadingBar.styles';
 import loadingBar from '../../images/loading-bar.gif';
 
 function LoadingBar() {
 
   return (
-    <Page>
+    <Loading>
       <img src={loadingBar} alt='loading' />
-    </Page>
+    </Loading>
   );
 }
 

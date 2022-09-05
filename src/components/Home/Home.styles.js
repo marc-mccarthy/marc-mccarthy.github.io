@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import devices from '../../devices/devices'
+import devices from '../../devices/devices';
 
 export const Page = styled.div`
   display: flex;

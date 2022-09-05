@@ -1,6 +1,13 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import devices from '../../devices/devices'
+import devices from '../../devices/devices';
+
+export const Loading = styled.div`
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
 
 export const Header = styled.header`
   font-family: Lobster, monospace;

@@ -1,6 +1,6 @@
-const interestsReducer = (state = [], action) => {
+const contactLinksReducer = (state = [], action) => {
   switch (action.type) {
-    case 'GET_INTERESTS':
+    case 'GET_CONTACT_LINKS':
       return action.payload;
     case 'RESET_FORM':
       return state = {};
@@ -9,4 +9,4 @@ const interestsReducer = (state = [], action) => {
   }
 };
 
-export default interestsReducer;
+export default contactLinksReducer;

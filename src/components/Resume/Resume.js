@@ -1,18 +1,38 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux';
 import { Page, MyResume } from './Resume.styles.js';
+import LoadingBar from '../LoadingBar/LoadingBar';
 
 function Resume() {
+  const dispatch = useDispatch();
+
+  const resume = useSelector(store => store.resumeReducer);
+
+  useEffect(() => {
+    dispatch({ type: 'GET_RESUME_SAGA' });
+  }, []);
 
   return (
-    <Page>
-      <MyResume
-        title="Marc's Resume"
-        src="https://drive.google.com/file/d/19vnaNpPTX0noVyrGa2YxGYnwSifMUF2C/preview"
-        width="640"
-        height="480"
-        allow="autoplay">
-      </MyResume>
-    </Page>
+    <div>
+      {resume.length === 0 ? (
+        <LoadingBar />
+      ) : (
+      <Page>
+        {resume.map((resume, index) => {
+          return (
+            <MyResume
+              key={index}
+              title="Marc's Resume"
+              src={resume.link}
+              width="640"
+              height="480"
+              allow="autoplay">
+            </MyResume>
+          )
+        })}
+      </Page>
+      )}
+    </div>
   );
 }
 
