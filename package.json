@@ -1,8 +1,7 @@
 {
 	"name": "marcmccarthy.io",
-	"hompage": "https://marc-mccarthy.github.io",
+	"hompage": "marcmccarthy.io",
 	"version": "0.1.0",
-  "proxy": "http://localhost:5001",
 	"engines": {
 		"node": "16.17.0",
     "npm": "8.15.0"
