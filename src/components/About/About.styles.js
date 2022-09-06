@@ -54,7 +54,7 @@ export const ToDoList = styled.ul`
 `
 
 export const ToDoItem = styled.li`
-  margin: 0.7rem;
+  margin: 1rem;
   font-family: Sansita, monospace;
   font-size: 18px;
 `
