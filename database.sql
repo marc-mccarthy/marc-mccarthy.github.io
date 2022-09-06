@@ -145,7 +145,7 @@ INSERT INTO "videos" ("video_name", "link") VALUES
 ('Greener Foot(prints): Road Trip Edition', 'https://www.youtube.com/embed/hHFNIzP0SUg');
 
 INSERT INTO "projects" ("project_name", "image", "description", "host", "github") VALUES
-('Greener Foot(prints): Road Trip Edition', '/wireframes/greener-footprints-wireframe.png', '🍃 Travel emissions footprint calculator based on variables integrated with many features.', 'https://greener-footprints.herokuapp.com', 'https://github.com/marc-mccarthy/greener-footprints'),
+('Greener Foot(prints): Road Trip Edition', '/wireframes/greener-footprints-wireframe.png', '🍃 Travel emissions footprint calculator based on variables integrated with many features.', 'https://greener-footprints.marcmccarthy.io', 'https://github.com/marc-mccarthy/greener-footprints'),
 ('Police Conduct', '/wireframes/police-conduct-wireframe.png', '👨🏻‍✈️ A place to publish details for your police encounter per incident, good or bad.', 'https://police-conduct.marcmccarthy.io', 'https://github.com/marc-mccarthy/police-conduct'),
 ('Movie Sagas', '/wireframes/movie-sagas-wireframe.png', '🍿 Small database of some great movies with CRUD features and a Top 10 Page.', 'https://movie-sagas.marcmccarthy.io', 'https://github.com/marc-mccarthy/movie-sagas'),
 ('React Gallery', '/wireframes/react-gallery-wireframe.png', '🖼️ Picture gallery CRUD application for some of my favorite life moments.', 'https://react-gallery.marcmccarthy.io', 'https://github.com/marc-mccarthy/react-gallery'),
