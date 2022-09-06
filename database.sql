@@ -83,7 +83,7 @@ INSERT INTO "technologies" ("tech_name", "link", "logo") VALUES
 ('Express.js', 'https://expressjs.com', 'https://img.shields.io/badge/Express.js-000000?style=plastic&logo=express&logoColor=white'),
 ('Git Versioning', 'https://git-scm.com', 'https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white'),
 ('Styled Components', 'https://styled-components.com', 'https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white'),
-('Material UI', 'https://mui.com', 'https://img.shields.io/badge/Material--UI-0081CB?style=plastic&logo=material-ui&logoColor=white'),
+('Material UI', 'https://mui.com', 'https://img.shields.io/badge/Material%20UI-007FFF?style=plastic&logo=mui&logoColor=white'),
 ('NPM.js', 'https://www.npmjs.com/', 'https://img.shields.io/badge/npm-CB3837?style=plastic&logo=npm&logoColor=white'),
 ('jQuery', 'https://jquery.com', 'https://img.shields.io/badge/jQuery-0769AD?style=plastic&logo=jquery&logoColor=white'),
 ('HTML5', 'https://en.wikipedia.org/wiki/HTML', 'https://img.shields.io/badge/HTML5-E34F26?style=plastic&logo=html5&logoColor=white'),
