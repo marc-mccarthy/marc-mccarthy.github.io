@@ -16,21 +16,17 @@ export const Bottom = styled.footer`
 export const Anchor = styled.a`
   text-decoration: none;
   border-radius: 3px;
-  box-shadow: 0 6px #d0cece;
+  box-shadow: 0 6px #bcb8b8;
   color: white;
-  width: 1750px;
   padding: 2px;
-  width: 110px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 90px;
   cursor: pointer;
   height: 25px;
   border: 0.5px solid #000000;
-  margin: 7px;
+  margin: 1rem 0.5rem;
   &:active {
     transform: scale(0.96);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.25);
-`
-
-export const Rocket = styled.img`
-  margin: 1rem;
-  height: 2rem;
 `

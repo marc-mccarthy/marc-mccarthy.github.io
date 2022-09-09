@@ -13,13 +13,11 @@ function Footer() {
 
   return (
     <Bottom>
-      <Rocket src={rocket} alt='footprint' />
       {contactLinks.map((contactLink, index) => {
         return (
           <Anchor href={contactLink.link} key={index} target="_blank" rel="noopener noreferrer">{contactLink.contact_name}</Anchor>
         )
       })}
-      <Rocket src={rocket} alt='footprint' />
     </Bottom>
   );
 }
