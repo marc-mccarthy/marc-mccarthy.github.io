@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import rocket from '../../images/rocket.ico';
-import { Anchor, Bottom, Rocket } from './Footer.styled';
+import { Anchor, BadgeLink, Bottom } from './Footer.styled';
 
 function Footer() {
   const dispatch = useDispatch();
@@ -15,7 +14,10 @@ function Footer() {
     <Bottom>
       {contactLinks.map((contactLink, index) => {
         return (
-          <Anchor href={contactLink.link} key={index} target="_blank" rel="noopener noreferrer">{contactLink.contact_name}</Anchor>
+          <Anchor href={contactLink.link} key={index} target="_blank" rel="noopener noreferrer">
+            <BadgeLink src={contactLink.logo} alt={contactLink.contact_name}>
+            </BadgeLink>
+          </Anchor>
         )
       })}
     </Bottom>

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import devices from '../../devices/devices';
 
 export const Page = styled.div`
-  margin: 2rem;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;

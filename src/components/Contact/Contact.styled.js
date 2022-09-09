@@ -10,7 +10,7 @@ export const Page = styled.div`
 `
 
 export const Content = styled.div`
-  margin: 2rem;
+  margin: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +40,22 @@ export const BadgeLink = styled.img`
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.25);
 `
 
+export const Quote = styled.h3`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  padding: 1rem;
+  border-radius: 15px;
+  @media (min-width: 409px) {
+    width: 80vw;
+  }
+  @media (min-width: 870px) {
+    width: 750px;
+  }
+`
+
 export const FormBox = styled.form`
   display: flex;
   flex-direction: column;
@@ -48,7 +64,7 @@ export const FormBox = styled.form`
   color: white;
   background-color: #3c3d34;
   width: 90vw;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   padding: 1rem;
   border-radius: 15px;
   @media (min-width: 409px) {

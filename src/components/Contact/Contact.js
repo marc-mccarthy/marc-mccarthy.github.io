@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Anchor, Page, Content, ContactMe, BadgeLink, FormBox, TellMe, TellMeButton, Label, Input, InputMessage } from './Contact.styled';
+import { Quote, Page, Content, FormBox, TellMe, TellMeButton, Label, Input, InputMessage } from './Contact.styled';
 import { useForm } from "react-hook-form";
 import LoadingBar from '../LoadingBar/LoadingBar';
 
@@ -42,16 +42,9 @@ function Contact() {
       ) : (
       <Page>
         <Content>
-          <ContactMe>
-            {contactLinks.map((contactLink, index) => {
-              return (
-                <Anchor href={contactLink.link} key={index} target="_blank" rel="noopener noreferrer">
-                  <BadgeLink src={contactLink.logo} alt={contactLink.contact_name}>
-                  </BadgeLink>
-                </Anchor>
-              )
-            })}
-          </ContactMe>
+          <Quote>
+          You can make more friends in two months by becoming interested in other people than you can in two years by trying to get other people interested in you. - Dale Carnegie
+          </Quote>
           <FormBox onSubmit={handleSubmit(addContact, handleError)}>
             <TellMe>
               <Label>First Name*</Label>
