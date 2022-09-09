@@ -45,9 +45,10 @@ function Contact() {
           <ContactMe>
             {contactLinks.map((contactLink, index) => {
               return (
-                  <Anchor href={contactLink.link} key={index}>
-                    <BadgeLink src={contactLink.logo} alt={contactLink.contact_name}>
-                  </BadgeLink></Anchor>
+                <Anchor href={contactLink.link} key={index} target="_blank" rel="noopener noreferrer">
+                  <BadgeLink src={contactLink.logo} alt={contactLink.contact_name}>
+                  </BadgeLink>
+                </Anchor>
               )
             })}
           </ContactMe>

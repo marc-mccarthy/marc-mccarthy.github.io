@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Bottom = styled.footer`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   color: #ffffff;
@@ -10,9 +11,26 @@ export const Bottom = styled.footer`
   position: fixed;
   width: 100%;
   bottom: 0;
+	text-align: center;
+`
+export const Anchor = styled.a`
+  text-decoration: none;
+  border-radius: 3px;
+  box-shadow: 0 6px #d0cece;
+  color: white;
+  width: 1750px;
+  padding: 2px;
+  width: 110px;
+  cursor: pointer;
+  height: 25px;
+  border: 0.5px solid #000000;
+  margin: 7px;
+  &:active {
+    transform: scale(0.96);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.25);
 `
 
 export const Rocket = styled.img`
   margin: 1rem;
-  height: 1.5rem;
+  height: 2rem;
 `
