@@ -43,7 +43,7 @@ function Contact() {
       <Page>
         <Content>
           <Quote>
-          You can make more friends in two months by becoming interested in other people than you can in two years by trying to get other people interested in you. - Dale Carnegie
+          You can make more friends in two months by becoming interested in other people than you can in two years by trying to get other people interested in you. --Dale Carnegie
           </Quote>
           <FormBox onSubmit={handleSubmit(addContact, handleError)}>
             <TellMe>

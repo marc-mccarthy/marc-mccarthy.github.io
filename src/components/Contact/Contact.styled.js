@@ -10,7 +10,6 @@ export const Page = styled.div`
 `
 
 export const Content = styled.div`
-  margin: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,10 +21,6 @@ export const ContactMe = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-`
-
-export const ContactLink = styled.div`
-  margin: 0.4rem;
 `
 
 export const BadgeLink = styled.img`
@@ -45,14 +40,12 @@ export const Quote = styled.h3`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90vw;
-  padding: 1rem;
-  border-radius: 15px;
+  width: 80vw;
   @media (min-width: 409px) {
     width: 80vw;
   }
   @media (min-width: 870px) {
-    width: 750px;
+    width: 715px;
   }
 `
 
@@ -64,7 +57,6 @@ export const FormBox = styled.form`
   color: white;
   background-color: #3c3d34;
   width: 90vw;
-  margin-top: 0.5rem;
   padding: 1rem;
   border-radius: 15px;
   @media (min-width: 409px) {
