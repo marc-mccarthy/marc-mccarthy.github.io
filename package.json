@@ -3,10 +3,6 @@
 	"hompage": "marcmccarthy.io",
 	"version": "0.1.0",
 	"proxy": "http://localhost:5001",
-	"engines": {
-		"node": "16.17.0",
-		"npm": "8.15.0"
-	},
 	"private": true,
 	"dependencies": {
 		"@sendgrid/mail": "^7.7.0",
