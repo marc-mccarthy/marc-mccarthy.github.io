@@ -144,7 +144,8 @@ INSERT INTO "interests" ("interest_name", "icon") VALUES
 ('Gaming', '🕹️');
 
 INSERT INTO "videos" ("video_name", "link") VALUES
-('Greener Foot(prints): Road Trip Edition', 'https://www.youtube.com/embed/hHFNIzP0SUg');
+('Greener Foot(prints): Road Trip Edition', 'https://www.youtube.com/embed/hHFNIzP0SUg'),
+('Searchable Enterprise Directory', 'https://www.youtube.com/watch?v=Lq_Mi3ld4z0'),
 
 INSERT INTO "projects" ("project_name", "image", "description", "host", "github") VALUES
 ('Greener Foot(prints)', '/wireframes/greener-footprints-wireframe.png', '🍃 Travel emissions footprint calculator based on variables integrated with many features.', 'https://greener-footprints.marcmccarthy.io', 'https://github.com/marc-mccarthy/greener-footprints'),
