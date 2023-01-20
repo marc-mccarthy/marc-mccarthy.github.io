@@ -32,7 +32,7 @@ function About() {
               {technologies.map((tech, index) => {
                 return (
                   <TechItem key={index}>
-                    <Anchor href={tech.link}><BadgeLink src={tech.logo} alt={tech.tech_name}></BadgeLink></Anchor>
+                    <Anchor href={tech.link} target="_blank" rel="noopener"><BadgeLink src={tech.logo} alt={tech.tech_name}></BadgeLink></Anchor>
                   </TechItem>
                 );
               })}
