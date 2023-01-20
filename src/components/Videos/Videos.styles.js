@@ -12,7 +12,7 @@ export const Page = styled.div`
 `
 
 export const VideoContainer = styled.div`
-  padding: 1em;
+  padding: .5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +27,7 @@ export const AspectRatio = styled.div`
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 56%;
+  padding-bottom: 50%;
 `
 
 export const Frame = styled.iframe`
