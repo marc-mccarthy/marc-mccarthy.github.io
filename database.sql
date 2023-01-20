@@ -153,7 +153,8 @@ INSERT INTO "projects" ("project_name", "image", "description", "host", "github"
 ('Movie Sagas', '/wireframes/movie-sagas-wireframe.png', '🍿 Small database of some great movies with CRUD features and a Top 10 Page.', 'https://movie-sagas.marcmccarthy.io', 'https://github.com/marc-mccarthy/movie-sagas'),
 ('React Gallery', '/wireframes/react-gallery-wireframe.png', '🖼️ Picture gallery CRUD application for some of my favorite life moments.', 'https://react-gallery.marcmccarthy.io', 'https://github.com/marc-mccarthy/react-gallery'),
 ('Redux Feedback Loop', '/wireframes/redux-feedback-loop-wireframe.png', '🖲️ Provide feedback for how well your retaining programming concepts.', 'https://redux-feedback-loop.marcmccarthy.io', 'https://github.com/marc-mccarthy/redux-feedback-loop'),
-('SQL To-Do List', '/wireframes/sql-to-do-list-wireframe.png', '✏️ A To-Do List that keeps track of whatever really. Rebuilding with React.', 'https://sql-to-do-list.marcmccarthy.io', 'https://github.com/marc-mccarthy/sql-to-do-list');
+('SQL To-Do List', '/wireframes/sql-to-do-list-wireframe.png', '✏️ A To-Do List that keeps track of whatever really. Rebuilding with React.', 'https://sql-to-do-list.marcmccarthy.io', 'https://github.com/marc-mccarthy/sql-to-do-list'),
+('Searchable Enterprise Directory', '/wireframes/searchable-enterprise-directory-wireframe.png', '🔎 Search and filter as you type employees in the company directory.', 'https://searchable-enterprise-directory.marcmccarthy.io', 'https://github.com/marc-mccarthy/searchable-enterprise-directory');
 
 INSERT INTO "contactLinks" ("contact_name", "link", "logo") VALUES
 ('Gmail', 'mailto:marstheory20@gmail.com', 'https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white'),
