@@ -5,6 +5,7 @@ import Navigation from '../Navigation/Navigation';
 import Home from '../Home/Home';
 import Projects from '../Projects/Projects';
 import Resume from '../Resume/Resume';
+import Coaching from '../Coaching/Coaching';
 import Videos from '../Videos/Videos';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
@@ -23,6 +24,7 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/resume' element={<Resume />} />
+          <Route path='/coaching' element={<Coaching />} />
           <Route path='/videos' element={<Videos />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />

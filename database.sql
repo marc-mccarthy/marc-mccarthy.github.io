@@ -68,6 +68,7 @@ INSERT INTO "pages" ("page_name", "address") VALUES
 ('Home', '/home'),
 ('Projects', '/projects'),
 ('Resume', '/resume'),
+('Coaching', '/coaching'),
 ('Videos', '/videos'),
 ('About', '/about'),
 ('Contact', '/contact');
