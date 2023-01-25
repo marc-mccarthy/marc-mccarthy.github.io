@@ -45,25 +45,25 @@ function Coaching() {
 				I tried to do this all on my own. It failed. I had no accountability and
 				no real human to help me... I decided to attend a bootcamp to fix the
 				issue. Now my bootcamp was amazing; the best one in the country in my
-				opinion, however, not everyone has $20,000 and can leave their current
-				career to do pursue this. This presents a real problem for so many who
-				want to pursue this direction, but simply cannot because of finances.
+				opinion, however, not everyone has $20,000 laying around and can leave
+				their current career to switch direction. This presents a real problem
+				for so many who want to pursue this, but simply cannot due to finances.
 			</p>
 			<Headline>This is where I come in!</Headline>
 			<p>
-				I can help bridge the gap to help you gain the skills with less
-				overhead. The curricullum isn't typically the issue I see with why
-				someone doesn't succeed. There a bazillions of free resources online,
-				yet so many new coders fail and give up! The problem is almost always a
-				lack of accountability and commitment to what it takes to do this
-				properly. You need someone to hold that line and to assist you with
-				concepts/assignments that you will have questions on. You will need the
-				encouragement and, at times, someone to tell you about YOUR own progress
-				you may not see in yourself.
+				I can help bridge the gap and help you gain the skills with less
+				overhead. The curriculum isn't typically the issue I see for why someone
+				doesn't succeed at this. There are bazillions of free resources online,
+				yet so many new coders fail and give up! The problem is almost always
+				due to a lack of accountability and commitment to finish it through. You
+				need someone to hold that line and to assist you with
+				concepts/assignments that you will inevitably have questions on. You
+				will need the encouragement and, at times, someone there to tell you
+				about YOUR own progress which you may not see in yourself right away.
 			</p>
 			<Headline>How does it work?</Headline>
 			<p>
-				You will work through the curricullum assignments that in the{" "}
+				You will work through the curriculum assignments in the{" "}
 				<a
 					href="https://www.theodinproject.com/paths/foundations/courses/foundations"
 					target="_blank"
@@ -71,7 +71,7 @@ function Coaching() {
 				>
 					Foundations Course
 				</a>{" "}
-				and then the{" "}
+				followed by the{" "}
 				<a
 					href="https://www.theodinproject.com/paths/full-stack-javascript?"
 					target="_blank"
@@ -79,7 +79,7 @@ function Coaching() {
 				>
 					Full Stack Javascript Course
 				</a>
-				. We will virtually meet twice a week for an hour so you can get 1-on-1
+				. We will meet virtually twice a week for an hour so you can get 1-on-1
 				time for any questions or issues you are having. You will also be able
 				to reach me on Slack outside of those meeting times when you are stuck
 				on an assignment that week. My goal is for YOU to make the career change
@@ -87,11 +87,11 @@ function Coaching() {
 			</p>
 			<Headline>Session Rates:</Headline>
 			<p>
-				Each session is $35 dollars and is a pure 1-on-1 with just you. Your
-				questions can be about anything you need that week. I accept payments on
-				Sundays (exeptions can be made) for the upcoming week so that we can
-				focus on your coding and I can be accessible on Slack to you. Please
-				feel free to reach out with anymore questions.
+				Each session is $35 dollars and is a pure 1-on-1 with just you and I.
+				Your questions can be about anything you need that week. I accept
+				payments on Sundays (exceptions possible) for the upcoming week so that
+				we can focus on your coding and I can be accessible to you on Slack.
+				Please feel free to reach out with anymore questions.
 			</p>
 		</Page>
 	);
