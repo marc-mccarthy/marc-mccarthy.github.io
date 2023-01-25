@@ -6,35 +6,25 @@ export const Page = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
 	@media (min-width: 1450px) {
 		margin-left: 10%;
 		margin-right: 10%;
 	}
 `;
 
-export const Content = styled.div`
+export const Resources = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	margin: 1rem;
-`;
-
-export const Container = styled.form`
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 0rem 1rem;
-	background-color: #dcdcdc;
-	width: 90vw;
-	padding: 0.5rem;
-	border-radius: 10px;
-	@media (min-width: 409px) {
-		width: 80vw;
-	}
-	@media (min-width: 870px) {
-		width: 750px;
+	width: 45rem;
+	@media (max-width: 870px) {
+		flex-direction: column;
+		margin: 0.5rem;
+		width: 40rem;
 	}
 `;
 
@@ -42,7 +32,17 @@ export const Link = styled.a`
 	font-weight: bold;
 	color: blue;
 	text-decoration: none;
-	margin: 0.25rem;
+	margin: 0rem 1rem;
+	background-color: #dcdcdc;
+	text-align: center;
+	padding: 0.5rem;
+	border-radius: 10px;
+	width: 30rem;
+	@media (max-width: 870px) {
+		flex-direction: column;
+		margin: 0.5rem 0rem;
+		width: 20rem;
+	}
 `;
 
 export const Image = styled.img`
@@ -57,5 +57,20 @@ export const Image = styled.img`
 `;
 
 export const Headline = styled.h3`
-	margin: 1rem 0rem 0rem 0rem;
+	margin: 0.4rem 0rem 0rem 0rem;
+`;
+
+export const TitleBox = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 1rem;
+	@media (max-width: 995px) {
+		flex-direction: column;
+	}
+`;
+
+export const Title = styled.h3`
+	margin: 0.3rem;
+	text-align: center;
 `;

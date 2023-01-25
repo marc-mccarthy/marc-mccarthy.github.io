@@ -31,7 +31,11 @@ function Projects() {
 						{projects.map((project, index) => {
 							return (
 								<Card key={index}>
-									<CardLink href={project.host} target="_blank" rel="noopener">
+									<CardLink
+										href={project.host}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<CardName>{project.project_name}</CardName>
 										<CardImage src={project.image} alt={project.name} />
 										<CardDescription>{project.description}</CardDescription>

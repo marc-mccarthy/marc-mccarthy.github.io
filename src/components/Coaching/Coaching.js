@@ -1,32 +1,36 @@
-import { Page, Content, Link, Container, Headline } from "./Coaching.styled";
+import {
+	Page,
+	Resources,
+	Link,
+	Title,
+	TitleBox,
+	Headline,
+} from "./Coaching.styled";
 
 function Coaching() {
 	return (
 		<Page>
-			<h2>
-				Learn Modern Web Development | Master the Job Search | Become
-				Employer-Ready
-			</h2>
-			<Content>
-				<Container>
-					<Link
-						href="https://www.theodinproject.com/"
-						target="_blank"
-						rel="noopener"
-					>
-						The Odin Project
-					</Link>
-				</Container>
-				<Container>
-					<Link
-						href="https://fullstackopen.com/en/"
-						target="_blank"
-						rel="noopener"
-					>
-						Full Stack Open
-					</Link>
-				</Container>
-			</Content>
+			<TitleBox>
+				<Title>Learn Modern Web Development.</Title>
+				<Title>Master the Job Search.</Title>
+				<Title>Become Employer-Ready.</Title>
+			</TitleBox>
+			<Resources>
+				<Link
+					href="https://www.theodinproject.com/"
+					target="_blank"
+					rel="noreferrer noopener"
+				>
+					The Odin Project
+				</Link>
+				<Link
+					href="https://fullstackopen.com/en/"
+					target="_blank"
+					rel="noreferrer noopener"
+				>
+					Full Stack Open
+				</Link>
+			</Resources>
 			<p>
 				I offer tutoring services to help students master the coding and soft
 				skills necessary to excel in the tech industry. By working through the
@@ -34,7 +38,7 @@ function Coaching() {
 				exercises, I guide students through the process of learning to code and
 				provide them with the necessary skills to become employer-ready. You can
 				contact me via <a href="mailto:marstheory20@gmail.com">Email</a> or send
-				me a message on my <a href="marcmccarthy.io/#/contact">Contact</a> page.
+				me a message on my <a href="/#/contact">Contact</a> page.
 			</p>
 			<Headline>Why trust me to help?</Headline>
 			<p>
@@ -63,7 +67,7 @@ function Coaching() {
 				<a
 					href="https://www.theodinproject.com/paths/foundations/courses/foundations"
 					target="_blank"
-					rel="noopener"
+					rel="noreferrer noopener"
 				>
 					Foundations Course
 				</a>{" "}
@@ -71,7 +75,7 @@ function Coaching() {
 				<a
 					href="https://www.theodinproject.com/paths/full-stack-javascript?"
 					target="_blank"
-					rel="noopener"
+					rel="noreferrer noopener"
 				>
 					Full Stack Javascript Course
 				</a>
