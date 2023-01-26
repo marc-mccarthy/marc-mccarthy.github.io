@@ -87,7 +87,7 @@ function Coaching() {
 			</p>
 			<Headline>Session Rates:</Headline>
 			<p>
-				Each session is $35 dollars and is a pure 1-on-1 with just you and I.
+				Each session is $50 dollars and is a pure 1-on-1 with just you and I.
 				Your questions can be about anything you need that week. I accept
 				payments on Sundays (exceptions possible) for the upcoming week so that
 				we can focus on your coding and I can be accessible to you on Slack.
