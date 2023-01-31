@@ -9,8 +9,8 @@ export const Page = styled.div`
 	margin-left: 10%;
 	margin-right: 10%;
 	@media (min-width: 1450px) {
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 20%;
+		margin-right: 20%;
 	}
 `;
 
