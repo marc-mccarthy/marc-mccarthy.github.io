@@ -23,11 +23,6 @@ CREATE TABLE "futureToDos" (
     "future_to_do" VARCHAR (500) NOT NULL
 );
 
-CREATE TABLE "resume" (
-    "id" SERIAL PRIMARY KEY,
-    "link" VARCHAR (500) NOT NULL
-);
-
 CREATE TABLE "interests" (
     "id" SERIAL PRIMARY KEY,
     "interest_name" VARCHAR (50) NOT NULL,
@@ -67,7 +62,6 @@ CREATE TABLE "contact" (
 INSERT INTO "pages" ("page_name", "address") VALUES
 ('Home', '/home'),
 ('Projects', '/projects'),
-('Resume', '/resume'),
 ('Coaching', '/coaching'),
 ('Videos', '/videos'),
 ('About', '/about'),
@@ -122,9 +116,6 @@ INSERT INTO "futureToDos" ("future_to_do") VALUES
 ('Learn Typescript and Object Oriented Programming.'),
 ('Learn .NET and C#.'),
 ('Add Movies, TV Shows, and Video Games to About Me page.');
-
-INSERT INTO "resume" ("link") VALUES
-('https://flowcv.com/resume/rktsdw8sa6');
 
 INSERT INTO "interests" ("interest_name", "icon") VALUES
 ('Full Stack Dev', '💻'),

@@ -1,15 +1,17 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {
-	Page,
-	Content,
-	Profile,
-	AboutMe,
-	Interests,
-	InterestItem,
-} from "./Home.styles";
 import profile from "../../images/profile-pic.png";
 import LoadingBar from "../LoadingBar/LoadingBar";
+import {
+	AboutMe,
+	Content,
+	InterestItem,
+	Interests,
+	Page,
+	Para,
+	Profile,
+	Resume,
+} from "./Home.styles";
 
 function Home() {
 	const dispatch = useDispatch();
@@ -29,7 +31,16 @@ function Home() {
 					<Content>
 						<Profile src={profile} alt="R.I.P Marc" />
 						<AboutMe>
-							<p>
+							<Resume>
+								<a
+									target="_blank"
+									rel="noreferrer"
+									href="https://flowcv.com/resume/rktsdw8sa6"
+								>
+									<h2>Resume</h2>
+								</a>
+							</Resume>
+							<Para>
 								My name is Marc McCarthy and I'm a Full Stack Developer who is
 								loving what I can build with technology! Everyone has a thing
 								that separates them. Mine is that I'm always, always building
@@ -37,8 +48,8 @@ function Home() {
 								new language, concept, or just a different way of doing things.
 								Experience molding with my hands on the keyboard is what I do
 								every day and I rarely take time off.
-							</p>
-							<p>
+							</Para>
+							<Para>
 								Its been fun to learn various languages, frameworks, libraries,
 								concepts, and CS fundamentals in my journey so far. I'm looking
 								for my first real work experience in programming currently and
@@ -46,15 +57,15 @@ function Home() {
 								value. I believe I have the capability and the confidence to
 								learn anything in programming I need to know. I think that's the
 								toughest hill I've climbed so far.
-							</p>
-							<p>
+							</Para>
+							<Para>
 								I've learned all that I know about programming while trying to
 								help raise my two year old daughter, Mila, and our six-month old
 								twins, Madden and Reya. Truth be told, it's been more of a
 								lesson in time management more than anything. However, it's a
 								special time in my life and I'm learning to understand and
 								embrace that it's hard and amazing all at the same time!
-							</p>
+							</Para>
 						</AboutMe>
 						<div>
 							<h3>Interests that I thoroughly enjoy:</h3>
