@@ -124,7 +124,7 @@ INSERT INTO "futureToDos" ("future_to_do") VALUES
 ('Add Movies, TV Shows, and Video Games to About Me page.');
 
 INSERT INTO "resume" ("link") VALUES
-('https://drive.google.com/file/d/19vnaNpPTX0noVyrGa2YxGYnwSifMUF2C/preview');
+('https://flowcv.com/resume/rktsdw8sa6');
 
 INSERT INTO "interests" ("interest_name", "icon") VALUES
 ('Full Stack Dev', '💻'),
