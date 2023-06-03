@@ -148,9 +148,7 @@ INSERT INTO "projects" ("project_name", "image", "description", "host", "github"
 ('SQL To-Do List', '/wireframes/sql-to-do-list-wireframe.png', '✏️ A To-Do List that keeps track of whatever really. Rebuilding with React.', 'https://sql-to-do-list.marcmccarthy.io', 'https://github.com/marc-mccarthy/sql-to-do-list'),
 ('Searchable Enterprise Directory', '/wireframes/searchable-enterprise-directory-wireframe.png', '🔎 Search and filter as you type employees in the company directory.', 'https://searchable-enterprise-directory.marcmccarthy.io', 'https://github.com/marc-mccarthy/searchable-enterprise-directory');
 
-INSERT INTO "contactLinks" ("contact_name", "link", "logo") VALUES
-('Gmail', 'mailto:marstheory20@gmail.com', 'https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white'),
-('GitHub', 'https://github.com/marc-mccarthy', 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white'),
+INSERT INTO "contactLinks" ('GitHub', 'https://github.com/marc-mccarthy', 'https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white'),
 ('LinkedIn', 'https://www.linkedin.com/in/the-marc-mccarthy/', 'https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white'),
 ('YouTube', 'https://www.youtube.com/channel/UCjwzRyKjuJHm1mPw_KcGZUA', 'https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white'),
 ('Twitter', 'https://twitter.com/themarcmccarthy', 'https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white');

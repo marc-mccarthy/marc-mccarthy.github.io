@@ -1,18 +1,18 @@
 import React, { useEffect } from "react";
+import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
+import LoadingBar from "../LoadingBar/LoadingBar";
 import {
-	Quote,
-	Page,
 	Content,
 	FormBox,
-	TellMe,
-	TellMeButton,
-	Label,
 	Input,
 	InputMessage,
+	Label,
+	Page,
+	Quote,
+	TellMe,
+	TellMeButton,
 } from "./Contact.styled";
-import { useForm } from "react-hook-form";
-import LoadingBar from "../LoadingBar/LoadingBar";
 
 function Contact() {
 	const dispatch = useDispatch();

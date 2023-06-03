@@ -36,9 +36,7 @@ function Coaching() {
 				skills necessary to excel in the tech industry. You will work through a
 				custom curriculum, the Odin Project, and/or Full Stack Open for the base
 				assignments. I will be with you for the whole ride and will be a mentor
-				to you. You can contact me via{" "}
-				<a href="mailto:marstheory20@gmail.com">Email</a> or send me a message
-				on my <a href="/#/contact">Contact</a> page.
+				to you. You can send me a <a href="/#/contact">message</a>.
 			</p>
 			<Headline>Why trust me to help?</Headline>
 			<p>
