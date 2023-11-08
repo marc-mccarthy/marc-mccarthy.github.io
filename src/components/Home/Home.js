@@ -80,7 +80,13 @@ function Home() {
 							</Interests>
 						</div>
 					</Content>
+					{ !project.status ? 
+						<Typography variant="body2" color="text.secondary">Status: Uncomplete</Typography> 
+						: 
+						<Typography variant="body2" color="text.secondary">Status: Complete</Typography>
+					}
 				</Page>
+				
 			)}
 		</div>
 	);
