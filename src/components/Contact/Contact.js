@@ -33,7 +33,7 @@ function Contact() {
 
 	useEffect(() => {
 		dispatch({ type: "GET_CONTACT_LINKS_SAGA" });
-	}, []);
+	});
 
 	const addContact = (data) => {
 		dispatch({ type: "ADD_CONTACT_SAGA", payload: data });

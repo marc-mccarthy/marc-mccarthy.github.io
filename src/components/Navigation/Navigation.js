@@ -2,15 +2,15 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import astronaut from "../../images/astronaut.svg";
 import {
-	Loading,
 	Header,
-	NavContainer,
-	NavMain,
-	NavLogo,
+	Loading,
 	Logo,
-	NavTitle,
+	NavContainer,
 	NavLink,
+	NavLogo,
+	NavMain,
 	NavPages,
+	NavTitle,
 } from "./Navigation.styles";
 
 function Navigation() {
@@ -20,7 +20,7 @@ function Navigation() {
 
 	useEffect(() => {
 		dispatch({ type: "GET_PAGES_SAGA" });
-	}, []);
+	});
 
 	return (
 		<div>

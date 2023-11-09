@@ -20,7 +20,7 @@ function Home() {
 
 	useEffect(() => {
 		dispatch({ type: "GET_INTERESTS_SAGA" });
-	}, []);
+	});
 
 	return (
 		<div>
@@ -80,13 +80,7 @@ function Home() {
 							</Interests>
 						</div>
 					</Content>
-					{ !project.status ? 
-						<Typography variant="body2" color="text.secondary">Status: Uncomplete</Typography> 
-						: 
-						<Typography variant="body2" color="text.secondary">Status: Complete</Typography>
-					}
-				</Page>
-				
+				</Page>			
 			)}
 		</div>
 	);

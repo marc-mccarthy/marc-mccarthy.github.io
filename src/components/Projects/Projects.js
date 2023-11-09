@@ -18,7 +18,7 @@ function Projects() {
 
 	useEffect(() => {
 		dispatch({ type: "GET_PROJECTS_SAGA" });
-	}, []);
+	});
 
 	return (
 		<div>

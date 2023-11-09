@@ -26,7 +26,7 @@ function About() {
 		dispatch({ type: "GET_TECHNOLOGIES_SAGA" });
 		dispatch({ type: "GET_SERVICES_SAGA" });
 		dispatch({ type: "GET_FUTURETODOS_SAGA" });
-	}, []);
+	});
 
 	return (
 		<div>

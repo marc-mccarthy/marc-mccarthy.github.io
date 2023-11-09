@@ -8,7 +8,7 @@ function Footer() {
 
 	useEffect(() => {
 		dispatch({ type: "GET_CONTACT_LINKS_SAGA" });
-	}, []);
+	});
 
 	return (
 		<Bottom>

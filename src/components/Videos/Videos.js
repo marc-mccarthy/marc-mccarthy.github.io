@@ -10,7 +10,7 @@ function Resume() {
 
 	useEffect(() => {
 		dispatch({ type: "GET_VIDEOS_SAGA" });
-	}, []);
+	});
 
 	return (
 		<div>
